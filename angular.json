@@ -92,9 +92,16 @@
           "options": {
             "configDir": ".storybook",
             "browserTarget": "sb-storyshots-bug:build",
+            "port": 6006,
             "compodoc": true,
-            "compodocArgs": ["-e", "json", "-d", "."],
-            "port": 6006
+            "compodocArgs": [
+              "-p",
+              ".storybook/tsconfig.doc.json",
+              "-e",
+              "json",
+              "-d",
+              ".storybook/"
+            ]
           }
         },
         "build-storybook": {

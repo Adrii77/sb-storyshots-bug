@@ -146,16 +146,6 @@
                 "deprecationMessage": "",
                 "type": "Meta<ButtonComponent>",
                 "defaultValue": "{\n  component: ButtonComponent,\n}"
-            },
-            {
-                "name": "preview",
-                "ctype": "miscellaneous",
-                "subtype": "variable",
-                "file": ".storybook/preview.ts",
-                "deprecated": false,
-                "deprecationMessage": "",
-                "type": "Preview",
-                "defaultValue": "{\n  decorators: [\n    applicationConfig({\n      providers: [provideHttpClient()],\n    }),\n  ],\n  parameters: {\n    actions: { argTypesRegex: '^on[A-Z].*' },\n    controls: {\n      matchers: {\n        color: /(background|color)$/i,\n        date: /Date$/,\n      },\n    },\n  },\n}"
             }
         ],
         "functions": [],
@@ -207,18 +197,6 @@
                     "type": "Meta<ButtonComponent>",
                     "defaultValue": "{\n  component: ButtonComponent,\n}"
                 }
-            ],
-            ".storybook/preview.ts": [
-                {
-                    "name": "preview",
-                    "ctype": "miscellaneous",
-                    "subtype": "variable",
-                    "file": ".storybook/preview.ts",
-                    "deprecated": false,
-                    "deprecationMessage": "",
-                    "type": "Preview",
-                    "defaultValue": "{\n  decorators: [\n    applicationConfig({\n      providers: [provideHttpClient()],\n    }),\n  ],\n  parameters: {\n    actions: { argTypesRegex: '^on[A-Z].*' },\n    controls: {\n      matchers: {\n        color: /(background|color)$/i,\n        date: /Date$/,\n      },\n    },\n  },\n}"
-                }
             ]
         },
         "groupedFunctions": {},
@@ -244,16 +222,6 @@
         "count": 0,
         "status": "low",
         "files": [
-            {
-                "filePath": ".storybook/preview.ts",
-                "type": "variable",
-                "linktype": "miscellaneous",
-                "linksubtype": "variable",
-                "name": "preview",
-                "coveragePercent": 0,
-                "coverageCount": "0/1",
-                "status": "low"
-            },
             {
                 "filePath": "src/app/app.component.ts",
                 "type": "component",
