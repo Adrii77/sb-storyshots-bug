@@ -3,14 +3,9 @@
   "compilerOptions": {
     "types": ["node"],
     "target": "ES2022",
+    "resolveJsonModule": true
   },
-  "files": ["./typings.d.ts"],
-  "include": [
-    "../src/**/*",
-    "./preview.ts"
-  ],
-  "exclude": [
-    "../src/test.ts",
-    "../src/**/*.spec.ts",
-  ]
+  "exclude": ["../src/test.ts", "../src/**/*.spec.ts"],
+  "include": ["../src/**/*", "./preview.ts"],
+  "files": ["./typings.d.ts"]
 }

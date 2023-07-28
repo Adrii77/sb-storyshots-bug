@@ -4,7 +4,6 @@ module.exports = {
   preset: "jest-preset-angular",
   setupFilesAfterEnv: ["<rootDir>/setup-jest.ts"],
   transform: {
-    "^.+\\.mdx?$": "<rootDir>/empty.js",
     "^.+\\.(ts|js|mjs|html|svg)$": [
       "jest-preset-angular",
       {

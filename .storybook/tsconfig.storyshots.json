@@ -4,7 +4,8 @@
     "skipLibCheck": true,
     "outDir": "../out-tsc/spec",
     "module": "CommonJs",
-    "types": ["jest"]
+    "types": ["jest"],
+    "resolveJsonModule": true
   },
   "files": ["./typings.d.ts"]
 }
